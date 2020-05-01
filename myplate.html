@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MyPlate Imagemap</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    
+<style>
+
+    html {
+        background-image: url(images/background.jpg);
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+    section {
+        margin: auto;
+        max-width: 915px;
+        padding-bottom: 10px;
+        background-color: rgba(256, 256, 256, .9);
+    }
+    
+    h1 {
+        font-family: 'Amatic SC', sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        padding-top: 13px;
+        margin-bottom: 13px;
+    }
+    
+    img {
+        border-radius: 4px;
+        opacity: .92;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    footer {
+        padding-top: 13px;
+    }
+    
+</style>    
+</head>
+    
+<body>
+    
+    <section class="main">
+        
+        <h1>My Plate Imagemap</h1>
+
+        <img src="images/myplate_breakdown_imgmap.jpg" width="900" height="672" alt="Grains" usemap="#plate">
+
+        <map name="plate">
+            <area shape="poly" coords="146,300,228,140,405,70,405,300" href="https://www.choosemyplate.gov/fruit" target="_blank" alt="fruit">
+            <area shape="poly" coords="146,311,405,311,405,594,205,499" href="https://www.choosemyplate.gov/vegetables" target="_blank" alt="vegetables">
+            <area shape="poly" coords="417,70,602,157,669,348,417,350" href="https://www.choosemyplate.gov/grains" target="_blank" alt="grains">
+            <area shape="poly" coords="417,360,669,360,591,519,417,594" href="https://www.choosemyplate.gov/protein-foods" target="_blank" alt="protein">
+            <area shape="circle" coords="770,158,96" href="https://www.choosemyplate.gov/dairy" target="_blank" alt="dairy">
+            <area shape="rect" coords="18,216,79,247" href="https://media3.giphy.com/media/xTiQymjYza10NhOFDa/giphy.gif?cid=3640f6095bdd36656777506f41f03bc2" target="_blank" alt="fork">
+        </map>
+
+    </section>    
+        
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhills.ccsf.edu%2F~sjokela%2FJokela_Assignment4_HTML%2Fmyplate.html" class="validators">
+        <img src="images/html.png" width="40" height="41" alt="HTML5" title="HTML5">
+        </a>
+    
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhills.ccsf.edu%2F~sjokela%2FJokela_Assignment4_HTML%2Fmyplate.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" class="validators">
+        <img src="images/css.png" width="40" height="41" alt="CSS3" title="CSS3" >
+        </a>
+    </footer>
+    
+</body>
+    
+</html>
